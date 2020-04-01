@@ -19,14 +19,17 @@
         配置用户名：git config --global user.name "xiaozhang"
         配置邮箱：$ git config --global user.email "xaiozahng@qq.con"
     4、把代码存储到.git仓库中
-        命令：
-         git.add ./001git.html(git add+"文件名") 第一步
-         git commit -m"添加说明" 第二步
+        1、命令：
+         第一步:git.add ./001git.html(git add+"文件名")  或者(git add ./) 提交当前目录的所有文件
+          第二步:git commit -m"添加说明"
+        2、命令: 直接存储到仓库，不用执行上面两个步骤===>git commit --all -m"提交所有"  
 
     5、查看当前状态==(命令：git status)
       可以查看当前代码有没有代码被放到仓库中去
 
-   
+    6、查看历史提交日志
+       命令：git log   查看提交日志
+            git log --oneline  查看简洁版日志
    */  
         
      </script>
